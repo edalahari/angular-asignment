@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<!-- <head>
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head> -->
+<body>
+    <header>
+        <div class="container">
+            <nav>  
+                <div class="navbar-brand">
+                    <a href="#"><img src="assets/images/logo.png" class="logocls" alt="Logo"></a>
+                </div>
+                <ul class="nav-right">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#" class="login">Login</a></li>
+                    <li><a href="#" class="getstarted">Get Started</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <section class="banner-sec">
+        <div class="container">
+            <div class="banner-cls"></div>
+            <div class="rowcls">
+                <div class="column rlt">
+                    <h1>We make it Super Simple </h1>
+                    <img src="assets/images/collect_img-video.png" alt="" class="imgcls">
+                    <img src="assets/images/accounting_dots.svg" alt="accounting" class="dots2">
+                </div>
+                <div class="column">
+                    <div class="panel">
+                        <div class="panel-head">
+                            Eligibility Calculator
+                        </div>
+                        <div class="panel-body">
+                            <div class="income-sec">
+                                <p>Monthly Income</p>
+                                <div class="flex"><i><img src="assets/images/rupee.svg" class="inr"></i><h4 id="demo"> 150000</h4></div>
+                                <div class="slidecontainer">
+                                  <!-- <ngx-slider [(value)]="minValue" [options]="options" class="slider" id="myRange" style="width: 100%;"></ngx-slider> -->
+								                <input type="range" min="100000" max="300000" value="150000" class="slider" id="myRange" style="width: 100%;">
+								                 <p><span style="float: right;"> <span><img src="assets/images/rupee.svg" class="inr"></span>300000</span>
+                                      <span><span><img src="assets/images/rupee.svg" class="inr"></span>100000</span></p>
+								</div>
+                            </div>
+                            <div class="income-sec">
+                                <p>Monthly Expense</p>
+                                <div class="flex"><i><img src="assets/images/rupee.svg" class="inr"></i><h4 id="monthly">50,000</h4></div>
+                                <div class="slidecontainer">
+                                    <input type="range" min="10000" max="100000" value="50000" class="slider" id="myRange1" style="width: 100%;">
+                                  
+                                  </div>
+                            </div>
+                            <div class="income-sec">
+                                <p>Repayment Tenure</p>
+                                
+                                <div class="slidecontainer">
+                                   <select class="form-cls">
+                                   		<option>6 Months</option>
+                                   		<option>1 Year</option>
+                                   		<option>3 Years</option>
+                                   		<option>6 Years</option>
+                                   </select>
+                            </div>
+                            <div class="income-sec mb-3">
+                                <p>Do you have any existing Loan? <label class="switchslider">
+                                    <input type="checkbox" checked>
+                                    <span class="switchslider round"></span>
+                                  </label></p>
+                              
+                            </div>
+                            <div class="income-sec border-bottom b-b-cls">
+                                <p>Emit of existing loan (Optional)</p>
+                                <h4><i><img src="assets/images/rupee.svg" class="inr"></i> 15,000</h4>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <p>Loan Amount</p>
+                    <h4><i><img src="assets/images/rupee-white.svg" class="inr"></i> 100000</h4>
+                    <p class="mt-4">Your EMI wil be</p>
+                    <h4><i><img src="assets/images/rupee-white.svg" class="inr"></i> 15000</h4>
+                    <button class="get-money" type="button">GET MONEY</button>
+                </div>
+                <img src="assets/images/accounting_dots.svg" alt="accounting" class="dots">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="solwave">
+        <div class="container">
+            <div class="col-9">
+                <ul>
+                    <li>
+                        <div class="box">
+                            <img src="assets/images/paid.png" class="iconsize">
+
+                            <h4>Quick cash disbursement</h4>
+                            <p>Get terms loans that your business needs within 72 hrs</p>
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/low-interest.png" class="iconsize">
+
+                            <h4>Low-interest rate</h4>
+                            <p>Achieve your financial goals with an amazing interest rate starting at 13% per annum</p>
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/secure.png" class="iconsize">
+
+                            <h4>Zero Paperwork</h4>
+                            <p>Get started instantly by submitting only your basic details & bank statements</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box f-box">
+                            <img src="assets/images/freelance.png" class="iconsize">
+
+                            <h4>Ace your business finances</h4>
+                            <p>Manage banking, accounting & everything in between, on one platform</p>
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/covid.png" class="iconsize">
+
+                            <h4>Loans to fight COVID-19</h4>
+                            <p>Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="boost-buz">
+                            <h2>Boost your business with Open</h2>
+                            <div class="line"></div>
+                            <p>
+                                Get your hands on a term loan that’s crafted for your business
+                            </p>
+                            <button class="btn-open-acct" type="button">Get an Open Account</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+ 
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+var slider1 = document.getElementById("myRange1");
+var output1 = document.getElementById("monthly");
+output1.innerHTML = slider.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+
+
+    </script>
+</body>
+</html>
